@@ -3,6 +3,7 @@ import { CounterContext } from '../context/CounterContext';
 
 const Home = () => {
 
+    //EXEMPLO DE FATORAÇÃO DO CONTEXTO FEITO MANUALMENTE 
     const { counter: contador,  setCounter } = useContext(CounterContext)
 
     return(
